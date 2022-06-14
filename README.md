@@ -27,23 +27,9 @@ admin username is "mary" and password is "fun123"
 #update the approve the flag patch mapping
 /guestbookapp/api/administrator/guestentries/{guestentryId}
 
-{
-    "isApproved":true
-}
-
 
 #update the guest entry by guest entry id
 /guestbookapp/api/administrator/guestentries/{guestentryId}
-
-{
-    "id": 75,
-    "comment": "I am the image. Approve me.",
-    "photos": "http://localhost:8073/downloadFile/1_thumbnail.jpg",
-    "user": {
-        "id": 1
-    },
-    "approved": true
-}
 
 #create guest entry
 /guestbookapp/api/guestusers/v1/guestentry/{userId}
